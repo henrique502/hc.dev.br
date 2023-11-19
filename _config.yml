@@ -1,0 +1,25 @@
+include:
+  - ".well-known"
+  - ".htaccess"
+
+# Exclude these files from production site
+exclude:
+  - package.json
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Makefile
+
+plugins:
+  - jekyll-sitemap
+
+# Output options
+timezone: America/Sao_Paulo
+encoding: utf-8
+layout: default
+
+# Name of website
+title: "@henrique502"
